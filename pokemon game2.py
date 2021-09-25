@@ -15,6 +15,7 @@ class Trainer:
     self.name = name
 
 
+#this is test
 test = 'new'
 
 pokemon_1 = Pokemon("pikachu", "electric")
