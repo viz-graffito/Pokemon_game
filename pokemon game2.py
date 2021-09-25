@@ -15,6 +15,8 @@ class Trainer:
     self.name = name
 
 
+test = 'new'
+
 pokemon_1 = Pokemon("pikachu", "electric")
 pokemon_2 = Pokemon("bulbasaur" "water")
 pokemon_3 = Pokemon("charmendar" "fire")
