@@ -108,7 +108,7 @@ else:
   trainer_2_pokemon.append(pokemon_1)
 
 trainer_one = Trainer(trainer_1, trainer_1_pokemon)
-trainer_two = Trainer(trainer_2, trainer_1_pokemon)
+trainer_two = Trainer(trainer_2, trainer_2_pokemon)
 
 print('lets get ready to fight! here are out two trainers')
 
