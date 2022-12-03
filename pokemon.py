@@ -1,12 +1,12 @@
-import discord
+# import discord
 TOKEN = ''
-client = discord.Client()
+# client = discord.Client()
 
-@client.event
-async def on_ready():
-  print('We have logged in as {0.user}'.format(client))
+# @client.event
+# async def on_ready():
+  # print('We have logged in as {0.user}'.format(client))
 
-client.runt(TOKEN)
+# client.runt(TOKEN)
 
 class Pokemon:
   def __init__(self, name, type, level = 5):
@@ -49,7 +49,7 @@ class Pokemon:
   def attack(self,other_pokemon):
     if self.is_knocked_out:
       print('{name} can\'t attack because it is knocked out!'.format(name=self.name))
-      return
+      # return
     if (self.type == "Fire" and other_pokemon.type == "Water") or (self.type == "Water" and other_pokemon.type == "Grass") or (self.type == "Grass" and other_pokemon.type == "Fire"):
             print("{my_name} attacked {other_name} for {damage} damage.".format(my_name = self.name, other_name = other_pokemon.name, damage = round(self.level * 0.5)))
             print("It's not very effective")
